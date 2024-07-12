@@ -6,7 +6,7 @@ Finding optimal graph structures is a significant optimization problem with appl
 Given a set of vertices, the goal is to determine a vertex ordering with the minimum cost. For instance, an ordering (B, C, A) might represent a network with vertices B, C, and A.
 
 ### Problem Description
-We are provided with vertices \(V1, \ldots, Vn\) and possible parent sets for each vertex, each with an associated cost. An ordering \(O\) of the vertices is considered consistent if all parents come before the vertex in the ordering. The task is to find an ordering \(O\) that minimizes the total cost of the network.
+We are provided with vertices \(V1, ... , Vn\) and possible parent sets for each vertex, each with an associated cost. An ordering \(O\) of the vertices is considered consistent if all parents come before the vertex in the ordering. The task is to find an ordering \(O\) that minimizes the total cost of the network.
 
 The objective is to implement and experiment with the search algorithms discussed in class (BFS, DFS, UCS) to find a good ordering of the variables. Three datasets are provided for experimentation in addition to two simple examples.
 
