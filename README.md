@@ -12,8 +12,8 @@ The objective is to implement and experiment with the search algorithms discusse
 
 ### Example
 Consider vertices A, B, and C with possible parent sets and their associated costs. For instance:
-- The cost of ordering (B, C, A) might be \( \text{cost}(C \rightarrow \{B\}) + \text{cost}(A \rightarrow \{B, C\}) = 2.4 + 6.3 + 1.3 = 10 \).
-- The cost of ordering (A, B, C) might be \( \text{cost}(C \rightarrow \{B\}) + \text{cost}(B \rightarrow \{\}) = 7.5 + 6.3 + 2.4 = 16.2 \).
+- The cost of ordering (B, C, A) might be cost(C→{B})+cost(A→{B,C}) = 2.4 + 6.3 + 1.3 = 10.
+- The cost of ordering (A, B, C) might be cost(C→{B})+cost(B→{}) = 7.5 + 6.3 + 2.4 = 16.2.
 
 We are going to implement search algorithms to determine the minimum cost ordering and its cost.
 
